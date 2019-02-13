@@ -1,0 +1,42 @@
+/**http://www.webscript.info/rk_lab/javascript_image_slider.php  this the reference**/
+/**The box that will contain the image, 
+think of this a frame for the picture in real life**/
+#slides{
+width:1280px;
+height: 720px;
+border:1px solid black;
+margin: auto;
+position: absolute;
+}
+
+/** This controls how much of the frame should the picure fill**/
+#slides>img{
+width:100%;
+height: 100%;
+position: relative;
+}
+
+/**This the button**/
+#slides>.btn{
+position: absolute;
+width:50px;
+height: 50px;
+border: none;
+border-radius: 25px;
+top:672px;
+background: white;
+color: black;
+font-size: 20px;
+}
+
+#slides>#btn2{
+position: relative;
+float: right;
+}
+h1{
+	font-size:100px;
+	color:black;
+}
+
+
+
