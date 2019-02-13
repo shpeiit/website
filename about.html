@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>About SHPE-IIT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">SHPE Illinois Tech</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="constitution.html">Constitution</a></li>
+											<li><a href="eboard.html">Executive Board</a></li>
+											<li><a href="fboard.html">FLI Board</a></li>
+											<li><a href="shpejr.html">SHPE Jr</a></li>
+											<!-- <li><a href="elements.html">Something goes here?</a></li> -->
+											<li><a href="events.html">Events</a></li>
+											<!-- <li><a href="resources.html">Resources</a></li> -->
+											<li><a href="sponsor.html">Corporate Sponsorship</a></li>
+											<li><a href="PR.html">Social Media</a></li>
+											<li><a href="contact.html">Contact Us</a></li>
+											<li><a href="nationalmember.html">National Member</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>About Us</h2>
+							<!-- <p>Something goes here</p> -->
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+							<!--ALL IMAGES MUST BE 1024x576 pixels for the slideshow! Make sure you get the original image. Use this website: http://imageresize.org/-->
+							 <div id="slides">
+								<img class="slides" src="images/slideshow/about1.jpg" style="width:1024px;height:576px;">
+								<img class="slides" src="images/slideshow/about.jpg" style="width:1024px;height:576px;">
+								<img class="slides" src="images/slideshow/banner.jpg" style="width:1024px;height:576px;">
+								<img class="slides" src="images/slideshow/noche.png" style="width:950px;height:576px;">
+								<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094; </button>
+								<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095; </button>
+							</div>
+							<!--Slideshow script-->
+							<script>
+								 var index = 1;
+
+								function plusIndex(n){
+								index = index + 1;
+								showImage(index);
+								}
+								showImage(1);
+								function showImage(n){
+								var i;
+								var x = document.getElementsByClassName("slides");
+								if(n > x.length){ index = 1};
+								if(n < 1){ index = x.length};
+								for(i=0;i<x.length;i++)
+								{
+								x[i].style.display = "none";
+								}
+								x[index-1].style.display = "block";
+								}
+								autoSlide();
+								function autoSlide(){
+								var i;
+								var x = document.getElementsByClassName("slides");
+								for(i=0;i<x.length;i++){
+								x[i].style.display = "none";
+								}
+								index++;
+								if(index > x.length){index = 1}
+								x[index-1].style.display = "block";
+								setTimeout(autoSlide,2000);   <!--Commenting this line would then make the user manaully click the button to change the image-->
+								}
+							</script>
+							<h3>Mission:</h3>
+								<p>
+									SHPE changes lives by empowering the Hispanic community to realize its fullest potential and to 
+									impact the world through STEM awareness, access, support and development.
+								</p>
+								<h3>Statement of Values:</h3>
+								<p>
+									We are brought together by heritage, social responsibility and desire to improve the equality of all
+									people through the use of science and technology. We value excellence in education, professional
+									pursuits and leadership. We obtain excellence through integrity, empowerment, achievement, diversity
+									and continuous improvement.
+								</p>
+								<h3>Vision:</h3>
+								<p>
+									SHPE's vision is a world where Hispanics are highly valued and influential 
+									as the leading innovators, scientists, mathematicians and engineers.
+								</p>
+								<h3>Strategic Focus Areas:</h3>
+								<p>
+									We will fulfill our mission by increasing educational opportunities, promoting professional and
+									personal growth, carry out our social responsibility to be involved in education, business and
+									government issues and enhancing pride within our organization and reinforcing our reputation as a
+									vital Hispanic organization.
+								</p>
+								<h3>History:</h3>
+								<p>
+									The Society of Hispanic Professional Engineers Chapter at the Illinois Institute of Technology (SHPE-IIT)
+									officially re-established in the Spring of 2009 when several members that attended the 2008 SHPE National
+									Conference were inspired to start a chapter of their own. The chapter collaborated with another already
+									established Latino student organization called the Latinos Involved in Further Education (LIFE). The two
+									organizations worked together to unite the Latino population on campus, while offering them the opportunities
+									and experience to become prominent leaders. In the Fall of 2011, the SHPE-IIT and LIFE organizations formally
+									plit to allow SHPE-IIT to continue to grow and become a strong self-standing organization. SHPE-IIT still
+									continues to collaborate with other on-campus student organizations, such as LIFE, on hosting events to
+									spread the Hispanic culture on campus.
+									Since then, SHPE-IIT has continued to become a huge force on the IIT campus by offering various workshops,
+									events, and opportunities that not only benefit the Hispanic engineering students, but benefit the campus
+									as a whole. This chapter continually increases membership and brought over 40 students to the 2014 SHPE
+									National Conference.
+									Overall, the chapter works to help its members gain the necessary skills and experience to be successful
+									leaders in their academic endeavors and college careers. SHPE-IIT continues to partner with other engineering
+									organizations on campus such as NSBE, SWE, ACHE, and ASME and faculty and staff to ensure that we positively
+									impact the entire IIT campus and community for the better. SHPE-IIT has finally earned the reputation as a
+									prominent student organization on campus and will continue to work hard, demonstrate dedication, and fulfill
+									the SHPE mission to make a difference in the IIT community and influence students for the better.
+									Since the chapter’s founding, SHPE-IIT has earned a number of awards, including the Most Improved Chapter Award
+									in the Spring of 2009 and Fall of 2013, and most notably, the Most Valuable Chapter Award in the Fall of 2009.
+									SHPE-IIT now hopes to earn the Chapter of the Year Award in the near future.
+
+								</p>
+							</div>
+						</section>
+					</article>
+					<!-- Features -->
+					<section class="box features">
+						<h2 class="major"><span>Learn More</span></h2>
+						<div>
+							<div class="row">
+								<div class="3u 12u(mobile)">
+									<!-- Feature -->
+										<section class="box feature">
+											<a href="constitution.html" class="image featured"><img src="images/constitution.jpg" alt="" /></a>
+											<h3><a href="constitution.html">Constitution</a></h3>
+											<p>
+												Good place to start to learn more about how we work.
+											</p>
+										</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<!-- Feature -->
+										<section class="box feature">
+											<a href="eboard.html" class="image featured"><img src="images/eboard/all.jpg" alt="" /></a>
+											<h3><a href="eboard.html">Executive Board</a></h3>
+											<p>
+												Meet the leaders that push this chapter to excellence.
+											</p>
+										</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<!-- Feature -->
+										<section class="box feature">
+											<a href="shpejr.html" class="image featured"><img src="images/shpejr.jpg" alt="" /></a>
+											<h3><a href="shpejr.html">SHPE Jr.</a></h3>
+											<p>
+												Learn how we join forces with Solorio High School to give back to the community.
+											</p>
+										</section>
+								</div>
+								<div class="3u 12u(mobile)">
+									<!-- Feature -->
+										<section class="box feature">
+											<a href="http://www.shpe.org/" target="_blank" class="image featured"><img src="images/shpenational.jpg" alt="" /></a>
+											<h3><a href="http://www.shpe.org/"  target="_blank">SHPE National</a></h3>
+											<p>
+												Learn more about SHPE and how to become an official national member.
+											</p>
+										</section>
+								</div>
+							</div>
+						</div>
+					</section>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href ="https://www.facebook.com/shpeiit/" target="_blank"class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href ="https://www.linkedin.com/in/shpe-illinois-tech-687597150/" target="_blank"class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; © SHPE-IIT. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+						<div>
+							<!-- Start of StatCounter Code for Default Guide -->
+							<script type="text/javascript">
+							var sc_project=11127364;
+							var sc_invisible=0;
+							var sc_security="7bab8573";
+							var scJsHost = (("https:" == document.location.protocol) ?
+							"https://secure." : "http://www.");
+							document.write("<sc"+"ript type='text/javascript' src='" +
+							scJsHost+
+							"statcounter.com/counter/counter.js'></"+"script>");
+							</script>
+							<noscript><div class="statcounter"><a title="click tracking"
+							href="http://statcounter.com/" target="_blank"><img
+							class="statcounter"
+							src="//c.statcounter.com/11127364/0/7bab8573/0/" alt="click
+							tracking"></a></div></noscript>
+							<!-- End of StatCounter Code for Default Guide -->
+						</div>
+					</footer>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
